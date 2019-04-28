@@ -1,0 +1,9 @@
+{
+  "User": {
+    "dbConfig": {
+      "uri": "mongodb+srv://mazzon:mazzon123456@cluster0-gpvsz.mongodb.net/Users?retryWrites=true",
+      "dbName": "Users"
+    }
+  },
+  "url": "http:localhost:8080/users"
+}

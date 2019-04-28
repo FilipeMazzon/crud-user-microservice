@@ -1,0 +1,45 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-empty": "error",
+        "no-multiple-empty-lines": "warn",
+        "no-var": "error",
+        "prefer-const": "error",
+        "no-console": "off",
+        "default-case": "error",
+        "complexity": "error",
+        "block-scoped-var": "warn",
+        "init-declarations": "warn",
+        "no-label-var": "warn",
+        "global-require": "error",
+        "no-sync": "error",
+        "handle-callback-err": "warn",
+        "max-len": ["warn", 120],
+        "max-lines": ["warn",200],
+        "max-params": ["warn",4],
+        "prefer-arrow-callback": "warn",
+        "prefer-destructuring": "error",
+        "prefer-spread": "warn",
+        "no-useless-rename": "warn",
+        "no-duplicate-imports": "error",
+        "arrow-spacing": "warn",
+        "max-nested-callbacks": ["error",3]
+    }
+}
